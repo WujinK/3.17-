@@ -11,8 +11,8 @@ violinplot => 컬럼에 대한 데이터 비교분포를 표현할 때 유용
 lmplot => 산점도와 추세ㅔ선이 한 번에 합쳐진 그래프
 joinplot => 산점도와 분포를 동시에 그려주는 그래프, 그래프의 종류 지정 가능
 
-iris
-titanic
+iris => 붓꽃데이터
+titanic => 타이타닉호 데이터
 tips => 팁
 flights => 항공데이터
 
