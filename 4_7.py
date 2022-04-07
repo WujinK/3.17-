@@ -1,6 +1,4 @@
-from selenium import webdriver
-chrome_path = 'C:\Wujin_py\chromedriver'
-url = "https://www.naver.com/"
-browser = webdriver.Chrome(chrome_path)
-browser.get(url)
-# gkdl
+# pip install seaborn
+# pip install numpy
+# pip install pandas
+# pip install matplotlib
