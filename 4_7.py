@@ -17,4 +17,10 @@ tips => 팁
 flights => 항공데이터
 
 linspace => 수평축, 간격 만들 때 유용함
+np.linespace(start,stop,num(step))
+'''
+
+'''
+====seaborn====
+darkdrid, whitegrid, dark, white, ticks
 '''
