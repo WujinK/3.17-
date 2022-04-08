@@ -48,4 +48,9 @@ SELECT *(모든 거 다 빼 올 때) FROM 테이블이름 WHERE 조건
 
 # fetchall (데이터를 튜플로 리턴되게 하는 것)
 cursor.fetchall()
+
+# 부분적으로 일치하는 데이터 찾기 LIKE
+SELECT 컬럼명 FROM 테이블명 WHERE 컬럼명 LIKE "(원하는 거)%" // 시작 글
+SELECT 컬럼명 FROM 테이블명 WHERE 컬럼명 LIKE "%(원하는 거)" // 마지막 글
+SELECT 컬럼명 FROM 테이블명 WHERE 컬럼명 LIKE "(원하는 거)__" // 글자 수 제한두기 '_' 글자 수 제한.
 '''
