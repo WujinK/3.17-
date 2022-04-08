@@ -41,4 +41,11 @@ DELETE FROM 테이블이름 WHERE 조건
 # 수정 UPDATE
 UPDATE 테이블이름 SET 컬럼명 = 변경할 값 WHERE 조건
 
+# SELECT 
+SELECT 컬럼명, 컬럼명
+SELECT *(모든 거 다 빼 올 때) FROM 테이블이름 WHERE 조건
+
+
+# fetchall (데이터 튜플로 리턴되게 하는 것)
+cursor.fetchall()
 '''
