@@ -26,4 +26,19 @@ none      =       null
 int       =        int(integer)
 str       =        text
 float     =       real
+
+DDL(데이터 정의어) => CREATE, ALTER, DROP(흔적도 없이 전부 삭제)
+DML(데이터 조작어) => SELECT, INSERT, UPDATE, DELETE(틀은 남아 있고 지움(내용물만 지움))
+DCL(데이터 제어어) => COMMIT, ROLLBACK, GRANT, REVOKE
+
+# 추가할 거
+INSERT INTO 테이블 이름 VALUES () // 순서가 맞아야함
+INSERT INTO 테이블 이름 SET 이름 = '우진', 나이 = 18, 성적 = 'A'
+
+# 삭제 DELETE
+DELETE FROM 테이블이름 WHERE 조건
+
+# 수정 UPDATE
+UPDATE 테이블이름 SET 컬럼명 = 변경할 값 WHERE 조건
+
 '''
