@@ -20,4 +20,10 @@ con.cursor() // 호출하는 법 // 데이터 베이스는 엑셀과 굉장히 �
 CREATE TABLE 만들 테이블 이름(컬럼이름 데이테타입, 컬럼이름 데이터타입)
 CREATE VIEW
 CREATE INDEX
-''' 
+
+파이썬            sqlite 
+none      =       null
+int       =        int(integer)
+str       =        text
+float     =       real
+'''
